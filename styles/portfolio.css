@@ -1,37 +1,53 @@
+:root {
+  --branding-color: #18294f;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #f9f7fe;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: Black;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;
 }
 
+body {
+  font-family: var(--default-font-family);
+}
 h1 {
   font-size: 96px;
 }
+
 p {
-  color: black;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .welcome-page {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
+  padding: 160px 2px;
 }
 
 .welcome-page p {
   font-size: 36px;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
 .welcome-page h2 {
   font-size: 24px;
   font-weight: normal;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 15px;
 }
