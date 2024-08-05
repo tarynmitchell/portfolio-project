@@ -47,6 +47,31 @@ p {
   line-height: 1.5;
 }
 
+.about-section {
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section p {
+  font-size: 30px;
+  font-family: var(--default-font-family);
+}
+
+.about-contact {
+  background-color: #e9edfc;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.information-title {
+  color: var(--branding-color);
+  font-weight: bold;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
