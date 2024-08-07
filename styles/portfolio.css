@@ -2,7 +2,7 @@
   --branding-color: #18294f;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #f9f7fe;
-  --tertiary-color: #ffcde3;
+  --tertiary-color: #e94c89;
 }
 
 h1,
@@ -23,10 +23,12 @@ body {
 h1 {
   font-size: 96px;
   line-height: 1.5;
+  color: var(--branding-color);
 }
 
 h4 {
   font-size: 46px;
+  color: var(--branding-color);
 }
 
 p {
@@ -42,6 +44,10 @@ p {
   padding: 160px 20px;
 }
 
+.welcome-page h1 {
+  color: var(--branding-color);
+}
+
 .welcome-page p {
   font-size: 36px;
   font-weight: bold;
@@ -51,6 +57,22 @@ p {
   font-size: 24px;
   font-weight: normal;
   line-height: 1.5;
+}
+
+.welcome-page .social-links a {
+  margin: 0 20px;
+  color: var(--tertiary-color);
+  border-radius: 50%;
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+}
+
+.welcome-page .social-links {
+  font-size: 30px;
+}
+
+.project-description h2 {
+  color: var(--tertiary-color);
 }
 
 .content-container {
@@ -80,10 +102,16 @@ p {
   padding-left: 20px;
 }
 
+.project-description .btn {
+  color: var(--tertiary-color);
+  border-radius: 10px;
+  border-color: var(--tertiary-color);
+}
+
 .about-contact {
   font: var(--default-font-family);
   background-color: #e9edfc;
-  font-size: 16px;
+  font-sze: 16px;
   line-height: 2;
   border-radius: 10px;
   padding: 15px 20px;
@@ -99,10 +127,11 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--tertiary-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
+
   line-height: 27px;
   padding: 10px 15px;
 }
@@ -149,11 +178,12 @@ nav li {
 
 nav a {
   text-decoration: none;
+  color: black;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: var(--tertiary-color);
 }
 
 footer {
@@ -161,7 +191,7 @@ footer {
   text-align: center;
   font-size: 30px;
   color: white;
-  margin: 60px 0;
+  margin: 80px 0;
 }
 
 footer .contact-box {
