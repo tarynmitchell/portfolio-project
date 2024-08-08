@@ -82,6 +82,7 @@ p {
 .content h1 {
   font-size: 64px;
   line-height: 80px;
+  margin-top: 40px;
 }
 
 .content-container p {
@@ -90,7 +91,7 @@ p {
 }
 
 .content h2 {
-  font-size: 40px;
+  font-size: 50px;
   color: var(--branding-color);
   line-height: 1;
   margin: 20px 0 0;
@@ -111,7 +112,7 @@ p {
 .about-contact {
   font: var(--default-font-family);
   background-color: #e9edfc;
-  font-sze: 16px;
+  font-size: 16px;
   line-height: 2;
   border-radius: 10px;
   padding: 15px 20px;
@@ -155,9 +156,10 @@ p {
 }
 
 .individual-skill {
-  background: #ffcde3;
+  background: #36424d;
   border-radius: 10px;
   padding: 10px;
+  color: white;
 }
 
 nav {
@@ -214,6 +216,10 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: var(--tertiary-color);
+}
+
+footer p {
+  font-size: 15px;
 }
 @media (max-width: 960px) {
   h1 {
