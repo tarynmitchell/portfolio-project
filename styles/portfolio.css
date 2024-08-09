@@ -41,7 +41,7 @@ p {
 .welcome-page {
   background: var(--secondary-color);
   text-align: center;
-  padding: 80px 30px;
+  padding: 160px 20px;
 }
 
 .welcome-page h1 {
@@ -51,7 +51,6 @@ p {
 .welcome-page p {
   font-size: 36px;
   font-weight: bold;
-  line-height: 30px;
 }
 
 .welcome-page h2 {
@@ -168,6 +167,7 @@ p {
   background: #36424d;
   border-radius: 10px;
   padding: 10px;
+  margin: 6px;
   color: white;
 }
 
@@ -202,7 +202,7 @@ footer {
   text-align: center;
   font-size: 30px;
   color: white;
-  margin: 80px 0;
+  margin: 80px 0 0 0;
 }
 
 footer .contact-box {
@@ -249,4 +249,11 @@ footer p {
     padding: 0;
     text-align: center;
   }
+  .language-skills {
+    flex-direction: column;
+  }
+}
+
+p {
+  margin-bottom: 0;
 }
