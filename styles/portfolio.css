@@ -74,7 +74,7 @@ p {
 .selfie {
   border-radius: 510px;
   width: 300px;
-  
+  padding-bottom: 60px;
 }
 
 .project-description h2 {
