@@ -71,6 +71,12 @@ p {
   font-size: 30px;
 }
 
+.selfie {
+  border-radius: 510px;
+  width: 300px;
+  
+}
+
 .project-description h2 {
   color: var(--tertiary-color);
 }
